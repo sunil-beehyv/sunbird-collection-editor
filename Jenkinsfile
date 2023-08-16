@@ -40,7 +40,7 @@ node() {
                         rm -rf collection-editor
                         node -v
                         npm -v                        
-                        npm install
+                        yarn install
                         cd app
                         bower cache clean
                         bower install --force
